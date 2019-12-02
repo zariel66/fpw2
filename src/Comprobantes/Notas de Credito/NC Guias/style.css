@@ -10,3 +10,8 @@
     color: black;
 }
 
+.ant-layout-sider:not(.ant-layout-sider-collapsed)
+{
+    max-width: 284px !important;
+    min-width: 284px !important;
+}
