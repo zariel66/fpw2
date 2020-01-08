@@ -1,0 +1,17 @@
+
+.ant-layout-sider-trigger
+{
+    background-color: white;
+
+}
+
+.ant-layout-sider-trigger i 
+{
+    color: black;
+}
+
+.ant-layout-sider:not(.ant-layout-sider-collapsed)
+{
+    max-width: 284px !important;
+    min-width: 284px !important;
+}

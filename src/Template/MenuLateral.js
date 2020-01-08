@@ -8,7 +8,7 @@ const { SubMenu } = Menu;
 class MenuLateral extends Component {
     render() {
         return (
-            <Menu theme="light" defaultSelectedKeys={['ncguias']} mode="inline"
+            <Menu theme="light" defaultSelectedKeys={['facnormal']} mode="inline"
                 style={{
 
                 }}
@@ -23,8 +23,16 @@ class MenuLateral extends Component {
                         </span>
                     }
                 >
-                    <Menu.Item key="facturacion">Facturación</Menu.Item>
-
+                    <SubMenu
+                        key="facturacion"
+                        title={
+                            <span>
+                                <span>Facturación</span>
+                            </span>
+                        }
+                    >
+                        <Menu.Item key="facnormal">Facturación Normal</Menu.Item>
+                    </SubMenu>
                     <Menu.Item key="retenciones">Retenciones</Menu.Item>
                     <Menu.Item key="anulaciones">Anulaciones</Menu.Item>
                     <SubMenu
